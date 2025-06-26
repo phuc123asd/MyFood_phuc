@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/edtUser_hao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đăng nhập"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtPass_hao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtRepass_hao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegister_hao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:onClick="dangKy_hao" />
+</LinearLayout>

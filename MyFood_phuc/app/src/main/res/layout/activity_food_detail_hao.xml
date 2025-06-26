@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img.png"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/txtFoodNameDetail_hao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bánh mì bò kho"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp" />
+
+        <TextView
+            android:id="@+id/txtFoodDescDetail_hao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ngon bổ re"
+            android:textSize="40sp"
+            android:paddingTop="22dp" />
+
+        <RadioGroup
+            android:id="@+id/rgSize_hao"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbSmall_hao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nhỏ"
+                android:textSize="30sp"/>
+
+            <RadioButton
+                android:id="@+id/rbLarge_hao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/vừa_hao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vừa"
+                android:textSize="30sp" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/txtRestaurantInfo_hao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quán Milktea Club"
+            android:paddingTop="8dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/txtPriceDetail_hao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá: 35000 đ"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingTop="8dp" />
+        <Button
+            android:id="@+id/btnAddToCart_hao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm vào giỏ hàng"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
